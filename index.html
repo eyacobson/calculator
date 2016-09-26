@@ -19,35 +19,37 @@
 
 		<div class="calculator">
 			<div class="top_row">
-				<button name="clear" id="clear">C</button>
-				<input name="result" type="text">
+				<button id="clear">C</button>
+				<input id="result" type="text" value="0">
 			</div>
 
 			<div class="buttons">
-				<button name="one">1</button>
-				<button name="two">2</button>
-				<button name="three">3</button>
-				<button name="plus">+</button>
+				<button class="math" value="1">1</button>
+				<button class="math" value="2">2</button>
+				<button class="math" value="3">3</button>
+				<button class="math" value="+">+</button>
 
-				<button name="four">4</button>
-				<button name="five">5</button>
-				<button name="six">6</button>
-				<button name="minus">-</button>
+				<button class="math" value="4">4</button>
+				<button class="math" value="5">5</button>
+				<button class="math" value="6">6</button>
+				<button class="math" value="-">-</button>
 
-				<button name="seven">7</button>
-				<button name="eight">8</button>
-				<button name="nine">9</button>
-				<button name="times">&times;</button>
+				<button class="math" value="7">7</button>
+				<button class="math" value="8">8</button>
+				<button class="math" value="9">9</button>
+				<button class="math" value="&times;">&times;</button>
 
-				<button name="zero">0</button>
-				<button name="point">.</button>
-				<button name="del" id="del"><span>del</span></button>
-				<button name="divided by">&divide;</button>
+				<button class="math" value="0">0</button>
+				<button class="math" value=".">.</button>
+				<button id="del"><span>del</span></button>
+				<button class="math" value="/">&divide;</button>
 
-				<button name="equals" id="equals"><hr><hr id="latter"></button>
+				<button id="equals"><hr><hr id="latter"></button>
 			</div>
 		</div>
 
 		<div class="base"></div>
+
+		<script type="text/javascript" src="calculator.js"></script>
 	</body>
 </html>

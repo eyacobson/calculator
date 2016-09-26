@@ -38,6 +38,7 @@ input {
 	font-family: "Atomic Age", "Courier New", sans-serif;
 	font-size: 30px;
 	text-align: right;
+	outline: none;
 }
 
 .buttons {
